@@ -14,7 +14,7 @@ public interface IntegerList {
      * @param num an integer to be added to the list
      * @return true if the list is changed as a result of the call
      */
-    public boolean add(int num);
+     boolean add(int num);
 
     /**
      * Adds all of the elements of the IntegerList to the list.
@@ -22,7 +22,7 @@ public interface IntegerList {
      * @param list IntegerList containing elements to be added to the list
      * @return true if the list changed as a result of the call
      */
-    public boolean addAll(IntegerList list);
+     boolean addAll(IntegerList list);
 
     /**
      * Returns the integer at the specified position in this list.
@@ -30,7 +30,7 @@ public interface IntegerList {
      * @param index index of the element to return
      * @return the element at the specified position in this list
      */
-    public int get(int index);
+     int get(int index);
 
     /**
      * Removes the first occurrence of the specified element from the list,
@@ -39,7 +39,7 @@ public interface IntegerList {
      * @param num an integer to be removed from the list, if present
      * @return true if an element was removed as a result of this call
      */
-    public boolean remove(int num);
+     boolean remove(int num);
 
     /**
      * Removes from the list all of its elements that are contained in the
@@ -49,7 +49,7 @@ public interface IntegerList {
      * the list
      * @return true if the list changed as a result of the call
      */
-    public boolean removeAll(IntegerList list);
+     boolean removeAll(IntegerList list);
 
     /**
      * Returns the number of elements in this list. If this list contains
@@ -57,7 +57,7 @@ public interface IntegerList {
      *
      * @return number of elements in the list
      */
-    public int size();
+     int size();
 
 
 }
